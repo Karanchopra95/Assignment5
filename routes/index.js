@@ -4,6 +4,6 @@ router.get('/', (req,res,next) => {
     res.render('Project',{title:'These are My projects'})
 })
 
-//makes the code public,without this line the code won't work
+//without this line the code wil not work and it also makes the code public
 module.exports = router;
     
